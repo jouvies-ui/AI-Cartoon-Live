@@ -53,6 +53,8 @@ Code, browser rendering, CPU models, startup flow, and installer integrity have 
 
 This project exists because other people solved difficult problems and shared their work. Their code, models and tools made it possible for us to build local characters, speech and live interaction. **Without them, AI-Cartoon-Live would not have become a working project. Thank you to the authors, maintainers and contributors.**
 
+Thanks to Douyin creator **本草收藏**, whose video provided the initial inspiration for this project.
+
 ### Projects and tools we use
 
 | Project | Author or maintainers | Use in this project |
