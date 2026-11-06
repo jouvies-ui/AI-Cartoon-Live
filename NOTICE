@@ -1,0 +1,12 @@
+AI-Cartoon-Live
+Copyright (C) 2026 jouvies-ui and contributors.
+
+中文：本项目的应用代码以 AGPL-3.0 发布。来自上游的代码、模型、运行库和美术素材保留原许可及署名。本项目由 Cyber-xiaoya-live 派生，原作者为天工开帧 / AI少女宇宙计划组。官方上游：https://github.com/cyber-xiaoya/cyber-xiaoya-live
+2026-11-06 修改：本机 Live2D、CPU ONNX 语音、人设与记忆、直播工作台、Windows 桌面与安装器、分发审计、双语文档。源文件及第三方许可随仓库提供。
+原上游的受限人物、私人声线、内容素材和品牌并不在 AGPL 授权中；本包使用独立默认人设及社区演示素材，遵循各自许可。
+完整署名与开发支持：docs/THANKS.zh-CN.md。
+
+English: Application code is distributed under AGPL-3.0. Upstream code, models, runtimes and artwork retain their own licenses and credits. This project derives from Cyber-xiaoya-live by 天工开帧 / AI少女宇宙计划组. Official upstream: https://github.com/cyber-xiaoya/cyber-xiaoya-live
+Changes dated 2026-11-06: local Live2D, CPU ONNX speech, persona and memory, live studio, Windows desktop/installer, distribution audit and bilingual documentation. Sources and third-party notices accompany this repository.
+Restricted upstream characters, private voices, content assets and branding are not licensed by AGPL; this distribution uses separate defaults and community demo assets under their own terms.
+Full credits and development support: docs/THANKS.en.md.

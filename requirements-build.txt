@@ -1,0 +1,8 @@
+# Build host only / 仅构建主机
+lief==1.0.0
+pillow==13.0.0
+onnx==1.23.2
+onnxruntime==1.21.1
+numpy==1.26.4
+tokenizers==0.21.1
+soundfile==0.13.1

@@ -1,0 +1,43 @@
+'use strict';
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{
+ const work=process.env.AI_CARTOON_BUILD_DIR||require('node:path').join(require('node:os').tmpdir(),'ai-cartoon-live-build');const out=require('node:path').join(work,'verification');fs.mkdirSync(out,{recursive:true});
+ const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_PATH?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_PATH}:{})});
+ const page=await browser.newPage({viewport:{width:1280,height:920}}),errors=[],failed=[];
+ page.on('pageerror',e=>errors.push(String(e)));
+ page.on('response',r=>{if(r.status()>=400)failed.push([r.status(),r.url()]);});
+ await page.addInitScript(()=>{
+  if(window.top!==window)return;
+  window.testState={phase:'setup',keySet:false,message:'首次使用：填写 DeepSeek API Key 即可开始。'};
+  window.companion={status:async()=>window.testState,onState:callback=>window.pushState=s=>{window.testState=s;callback(s);},
+   saveKey:async()=>({ok:false,message:'测试：密钥未通过验证。'}),restart:async()=>true,logs:async()=>{},license:async()=>{},stage:async()=>{},copyStage:async()=>{},deepseek:async()=>{}};
+ });
+ await page.goto(require('node:url').pathToFileURL(require('node:path').join(__dirname,'shell.html')).href);
+ await page.locator('#welcome').waitFor({state:'visible'});
+ assert(await page.locator('#view').isHidden());
+ await page.screenshot({path:out+'/first-run.png'});
+ await page.locator('#key').fill('test-key-for-ui-only');await page.locator('#save').click();
+ await page.getByText('测试：密钥未通过验证。',{exact:true}).waitFor();
+ await page.evaluate(serviceUrl=>window.pushState({phase:'ready',keySet:true,message:'本机服务已就绪',url:serviceUrl}),process.env.AI_CARTOON_TEST_URL||'http://127.0.0.1:18795');
+ const frame=page.frameLocator('#view');
+ const liveFrame=await (await page.locator('#view').elementHandle()).contentFrame();
+ await liveFrame.waitForFunction(()=>window.whaleDiagnostics?.modelReady,{},{timeout:30000});
+ const diagnostics=await liveFrame.evaluate(()=>window.whaleDiagnostics);
+ assert.equal(diagnostics.errors.length,0,JSON.stringify(diagnostics.errors));
+ await page.screenshot({path:out+'/chat.png'});
+ await page.locator('[data-page="/local/settings#character"]').click();
+ await frame.locator('#voice').waitFor({state:'visible'});
+ await liveFrame.waitForFunction(()=>document.querySelectorAll('#voice option').length===16);
+ await page.screenshot({path:out+'/voices.png'});
+ await page.locator('[data-page="/local/settings#live"]').click();
+ await frame.locator('#room').waitFor({state:'visible'});
+ await page.screenshot({path:out+'/live.png'});
+ await page.evaluate(()=>window.pushState({phase:'error',keySet:true,message:'本机服务已停止，请重启服务。'}));
+ assert.equal(await page.locator('#view').getAttribute('src'),null);
+ assert(await page.locator('#loading').isVisible());
+ assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+ fs.writeFileSync(out+'/ui-result.json',JSON.stringify({ok:true,checks:['first-run','key-error','whale-render','16-voices','live-settings','service-error-reset'],modelReady:diagnostics.modelReady,errors,failed},null,2));
+ console.log('PASS UI: first run, key error, real whale render, 16 voice options, live settings, failure reset');
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1);});

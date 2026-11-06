@@ -1,0 +1,471 @@
+[
+  {
+    "name": "PyYAML",
+    "version": "6.0.2",
+    "repository": "https://github.com/yaml/pyyaml",
+    "maintainers": "yaml",
+    "license": "MIT License"
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "repository": "https://github.com/annotated-types/annotated-types",
+    "maintainers": "annotated-types",
+    "license": "MIT"
+  },
+  {
+    "name": "anyascii",
+    "version": "0.3.3",
+    "repository": "https://github.com/anyascii/anyascii",
+    "maintainers": "anyascii",
+    "license": "ISC License (ISCL)"
+  },
+  {
+    "name": "anyio",
+    "version": "4.16.0",
+    "repository": "https://github.com/agronholm/anyio",
+    "maintainers": "agronholm",
+    "license": "MIT"
+  },
+  {
+    "name": "audioread",
+    "version": "3.1.0",
+    "repository": "https://github.com/beetbox/audioread",
+    "maintainers": "beetbox",
+    "license": "MIT"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.10.23",
+    "repository": "https://github.com/certifi/python-certifi",
+    "maintainers": "certifi",
+    "license": "Mozilla Public License 2.0 (MPL 2.0)"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "repository": "https://github.com/python-cffi/cffi",
+    "maintainers": "python-cffi",
+    "license": "MIT-0"
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "repository": "https://github.com/jawah/charset_normalizer",
+    "maintainers": "jawah",
+    "license": "MIT"
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "repository": "https://github.com/pallets/click",
+    "maintainers": "pallets",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "repository": "https://github.com/cloudpipe/cloudpickle",
+    "maintainers": "cloudpipe",
+    "license": "BSD License"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "repository": "https://github.com/tartley/colorama",
+    "maintainers": "tartley",
+    "license": "BSD License"
+  },
+  {
+    "name": "coloredlogs",
+    "version": "15.0.1",
+    "repository": "https://github.com/xolox/python-coloredlogs",
+    "maintainers": "xolox",
+    "license": "MIT License"
+  },
+  {
+    "name": "contractions",
+    "version": "0.1.73",
+    "repository": "https://github.com/kootenpv/contractions",
+    "maintainers": "kootenpv",
+    "license": "MIT"
+  },
+  {
+    "name": "decorator",
+    "version": "5.3.1",
+    "repository": "https://github.com/micheles/decorator",
+    "maintainers": "micheles",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "exceptiongroup",
+    "version": "1.3.1",
+    "repository": "https://github.com/agronholm/exceptiongroup",
+    "maintainers": "agronholm",
+    "license": "MIT License"
+  },
+  {
+    "name": "fastapi",
+    "version": "0.115.12",
+    "repository": "https://github.com/fastapi/fastapi",
+    "maintainers": "fastapi",
+    "license": "MIT License"
+  },
+  {
+    "name": "filelock",
+    "version": "4.2.9",
+    "repository": "https://github.com/tox-dev/filelock",
+    "maintainers": "tox-dev",
+    "license": "MIT"
+  },
+  {
+    "name": "flatbuffers",
+    "version": "25.12.19",
+    "repository": "https://github.com/google/flatbuffers",
+    "maintainers": "google",
+    "license": "Apache Software License"
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.9.0",
+    "repository": "https://github.com/fsspec/filesystem_spec",
+    "maintainers": "fsspec",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "repository": "https://github.com/python-hyper/h11",
+    "maintainers": "python-hyper",
+    "license": "MIT License"
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.8.0",
+    "repository": "https://github.com/huggingface/xet-core",
+    "maintainers": "huggingface",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "repository": "https://github.com/encode/httpcore",
+    "maintainers": "encode",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "repository": "https://github.com/encode/httpx",
+    "maintainers": "encode",
+    "license": "BSD License"
+  },
+  {
+    "name": "huggingface_hub",
+    "version": "0.36.2",
+    "repository": "https://github.com/huggingface/huggingface_hub",
+    "maintainers": "huggingface",
+    "license": "Apache Software License"
+  },
+  {
+    "name": "humanfriendly",
+    "version": "10.0",
+    "repository": "https://github.com/xolox/python-humanfriendly",
+    "maintainers": "xolox",
+    "license": "MIT License"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "repository": "https://github.com/kjd/idna",
+    "maintainers": "kjd",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "joblib",
+    "version": "1.6.0",
+    "repository": "https://github.com/joblib/joblib",
+    "maintainers": "joblib",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "kaldifst",
+    "version": "1.9.0",
+    "repository": "https://github.com/k2-fsa/kaldifst",
+    "maintainers": "k2-fsa",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "lazy-loader",
+    "version": "0.6",
+    "repository": "https://github.com/scientific-python/lazy-loader",
+    "maintainers": "scientific-python",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "librosa",
+    "version": "0.11.0",
+    "repository": "https://github.com/librosa/librosa",
+    "maintainers": "librosa",
+    "license": "ISC License (ISCL)"
+  },
+  {
+    "name": "llvmlite",
+    "version": "0.44.0",
+    "repository": "https://github.com/numba/llvmlite",
+    "maintainers": "numba",
+    "license": "BSD"
+  },
+  {
+    "name": "ml_dtypes",
+    "version": "0.5.4",
+    "repository": "https://github.com/jax-ml/ml_dtypes",
+    "maintainers": "jax-ml",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "repository": "https://github.com/fredrik-johansson/mpmath",
+    "maintainers": "fredrik-johansson",
+    "license": "BSD License"
+  },
+  {
+    "name": "msgpack",
+    "version": "1.2.4",
+    "repository": "https://github.com/msgpack/msgpack-python",
+    "maintainers": "msgpack",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "narwhals",
+    "version": "2.28.0",
+    "repository": "https://github.com/narwhals-dev/narwhals",
+    "maintainers": "narwhals-dev",
+    "license": "MIT"
+  },
+  {
+    "name": "numba",
+    "version": "0.61.2",
+    "repository": "https://github.com/numba/numba",
+    "maintainers": "numba",
+    "license": "BSD License"
+  },
+  {
+    "name": "numpy",
+    "version": "1.26.4",
+    "repository": "https://github.com/numpy/numpy",
+    "maintainers": "numpy",
+    "license": "BSD License"
+  },
+  {
+    "name": "onnx",
+    "version": "1.23.2",
+    "repository": "https://github.com/onnx/onnx",
+    "maintainers": "onnx",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.21.1",
+    "repository": "https://github.com/microsoft/onnxruntime",
+    "maintainers": "microsoft",
+    "license": "MIT License"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "repository": "https://github.com/pypa/packaging",
+    "maintainers": "pypa",
+    "license": "Apache-2.0 OR BSD-2-Clause"
+  },
+  {
+    "name": "platformdirs",
+    "version": "4.14.5",
+    "repository": "https://github.com/tox-dev/platformdirs",
+    "maintainers": "tox-dev",
+    "license": "MIT"
+  },
+  {
+    "name": "pooch",
+    "version": "1.9.0",
+    "repository": "https://github.com/fatiando/pooch",
+    "maintainers": "fatiando",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "repository": "https://github.com/protocolbuffers/protobuf",
+    "maintainers": "protocolbuffers",
+    "license": "3-Clause BSD License"
+  },
+  {
+    "name": "psutil",
+    "version": "7.0.0",
+    "repository": "https://github.com/giampaolo/psutil",
+    "maintainers": "giampaolo",
+    "license": "BSD License"
+  },
+  {
+    "name": "pyahocorasick",
+    "version": "2.3.1",
+    "repository": "https://github.com/WojciechMula/pyahocorasick",
+    "maintainers": "WojciechMula",
+    "license": "BSD-3-Clause and Public-Domain"
+  },
+  {
+    "name": "pycparser",
+    "version": "3.12",
+    "repository": "https://github.com/eliben/pycparser",
+    "maintainers": "eliben",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pydantic",
+    "version": "2.14.2",
+    "repository": "https://github.com/pydantic/pydantic",
+    "maintainers": "pydantic",
+    "license": "MIT"
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.50.2",
+    "repository": "https://github.com/pydantic/pydantic",
+    "maintainers": "pydantic",
+    "license": "MIT"
+  },
+  {
+    "name": "pyreadline3",
+    "version": "3.5.4",
+    "repository": "https://github.com/pyreadline3/pyreadline3",
+    "maintainers": "pyreadline3",
+    "license": "BSD License"
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.20",
+    "repository": "https://github.com/Kludex/python-multipart",
+    "maintainers": "Kludex",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "repository": "https://github.com/psf/requests",
+    "maintainers": "psf",
+    "license": "Apache Software License"
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.9.1",
+    "repository": "https://github.com/scikit-learn/scikit-learn",
+    "maintainers": "scikit-learn",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "scipy",
+    "version": "1.15.3",
+    "repository": "https://github.com/scipy/scipy",
+    "maintainers": "scipy",
+    "license": "BSD License"
+  },
+  {
+    "name": "soundfile",
+    "version": "0.13.1",
+    "repository": "https://github.com/bastibe/python-soundfile",
+    "maintainers": "bastibe",
+    "license": "BSD License"
+  },
+  {
+    "name": "soxr",
+    "version": "1.1.0",
+    "repository": "https://github.com/dofuuz/python-soxr",
+    "maintainers": "dofuuz",
+    "license": "LGPL-2.1-or-later"
+  },
+  {
+    "name": "starlette",
+    "version": "0.46.2",
+    "repository": "https://github.com/encode/starlette",
+    "maintainers": "encode",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "repository": "https://github.com/sympy/sympy",
+    "maintainers": "sympy",
+    "license": "BSD License"
+  },
+  {
+    "name": "textsearch",
+    "version": "0.0.24",
+    "repository": "https://github.com/kootenpv/textsearch",
+    "maintainers": "kootenpv",
+    "license": "MIT"
+  },
+  {
+    "name": "threadpoolctl",
+    "version": "3.7.0",
+    "repository": "https://github.com/joblib/threadpoolctl",
+    "maintainers": "joblib",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "tokenizers",
+    "version": "0.21.1",
+    "repository": "https://github.com/huggingface/tokenizers",
+    "maintainers": "huggingface",
+    "license": "Apache Software License"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.1",
+    "repository": "https://github.com/tqdm/tqdm",
+    "maintainers": "tqdm",
+    "license": "MPL-2.0 AND MIT"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "repository": "https://github.com/python/typing_extensions",
+    "maintainers": "python",
+    "license": "PSF-2.0"
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.5",
+    "repository": "https://github.com/pydantic/typing-inspection",
+    "maintainers": "pydantic",
+    "license": "MIT"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "repository": "https://github.com/urllib3/urllib3",
+    "maintainers": "urllib3",
+    "license": "MIT"
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.34.2",
+    "repository": "https://github.com/encode/uvicorn",
+    "maintainers": "encode",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "websockets",
+    "version": "15.0.1",
+    "repository": "https://github.com/python-websockets/websockets",
+    "maintainers": "python-websockets",
+    "license": "BSD License"
+  },
+  {
+    "name": "wetext",
+    "version": "0.2.1",
+    "repository": "https://github.com/pengzhendong/wetext",
+    "maintainers": "pengzhendong",
+    "license": "Apache-2.0"
+  }
+]

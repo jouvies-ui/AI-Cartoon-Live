@@ -1,0 +1,531 @@
+{
+  "schema": 1,
+  "distribution": "whale-only",
+  "reviewed": "2026-11-06",
+  "files": {
+    "source/hojo-40m/LICENSE.txt": {
+      "size": 10394,
+      "sha256": "787aa312b93eee80b636f35652469df29efdb7582239d6a9c088467555a3c7fd"
+    },
+    "source/hojo-40m/hojo_runtime.py": {
+      "size": 4002,
+      "sha256": "7daee6f6e54831f2f83a69f96ca87e3f4adc23a9e9510436c0c4d28e6eb2f0f4"
+    },
+    "source/hojo-40m/hojo_server.py": {
+      "size": 4612,
+      "sha256": "7b9ea969c499c261a53343d9bd6da9cb42d552c0fa60a96dc895045fbf7a6583"
+    },
+    "source/hojo-40m/model-manifest.json": {
+      "size": 1170,
+      "sha256": "865c6eb08215e6eb0f22aa6b40a7e5ddfaa1c87e9b2a8006b306e0e07664defa"
+    },
+    "source/hojo-40m/upstream/Hojo-TTS-Light-40M/README.md": {
+      "size": 6212,
+      "sha256": "d60ee453cc5dc89ccdda7747e80b1bfb9bf87cc1b52e39bac75b3feb8f90434f"
+    },
+    "source/hojo-40m/upstream/Hojo-TTS-Light-40M/README.zh-CN.md": {
+      "size": 1086,
+      "sha256": "71ea84b9a4c9ab4bffae063404a0d9d0a72b4317ee9d39424fc09e89b1beb263"
+    },
+    "source/hojo-40m/upstream/Hojo-TTS-Light-40M/onnx_model.py": {
+      "size": 28280,
+      "sha256": "9616204dae30f7c315902391406d027867e9480b7a5d177252917748388554bc"
+    },
+    "source/hojo-40m/upstream/Hojo-TTS-Light-40M/text_normalize.py": {
+      "size": 2558,
+      "sha256": "e9c7da3805b6f855873436a95c2c31f4047e7f086b818ddfa62ff056634c8c1e"
+    },
+    "source/hojo-80m/LICENSE.txt": {
+      "size": 10394,
+      "sha256": "787aa312b93eee80b636f35652469df29efdb7582239d6a9c088467555a3c7fd"
+    },
+    "source/hojo-80m/hojo80_runtime.py": {
+      "size": 5484,
+      "sha256": "dba6e32493e3523bdea113988fc1b33fe56738cea5c6eee8106fd0aec4fbeeff"
+    },
+    "source/hojo-80m/hojo80_server.py": {
+      "size": 7295,
+      "sha256": "d10498cd79a9e438cff74809330a45b7dfdd6d1b0cffa82619011b42bcf35da0"
+    },
+    "source/hojo-80m/hojo_reference_cache.py": {
+      "size": 2447,
+      "sha256": "beab1857025b2f57d35cff10ddbd064d45fb56556f7337b35e4af43bd4f03da0"
+    },
+    "source/hojo-80m/hojo_runtime.py": {
+      "size": 4002,
+      "sha256": "7daee6f6e54831f2f83a69f96ca87e3f4adc23a9e9510436c0c4d28e6eb2f0f4"
+    },
+    "source/hojo-80m/hojo_voices.py": {
+      "size": 1951,
+      "sha256": "9561454d9c7c7bab771ffee499ac18131e981ea5c41fffb9f1e4e1b827d17ba9"
+    },
+    "source/hojo-80m/model-manifest.json": {
+      "size": 1330,
+      "sha256": "0aab9b45d30ab9caf5c1c7a197b219205e847e049b4abf60217393248be53e64"
+    },
+    "source/hojo-80m/upstream/Hojo-TTS-Light-80M/README.md": {
+      "size": 3125,
+      "sha256": "b1d6c31a340f73ce6cb5dd11e823688ac1088204b3e7b87490d2d8489d2cdf0e"
+    },
+    "source/hojo-80m/upstream/Hojo-TTS-Light-80M/README.zh-CN.md": {
+      "size": 1086,
+      "sha256": "35ddcf98756a3cdd2728ad2cd2197d544fdddfd787ee30a4f5933b644ce266b9"
+    },
+    "source/hojo-80m/upstream/Hojo-TTS-Light-80M/onnx_model.py": {
+      "size": 28017,
+      "sha256": "d33049224d774b70cf4a50559624091f1bb79dcc46987edc5c19463204a40be7"
+    },
+    "source/hojo-80m/upstream/Hojo-TTS-Light-80M/text_normalize.py": {
+      "size": 2558,
+      "sha256": "e9c7da3805b6f855873436a95c2c31f4047e7f086b818ddfa62ff056634c8c1e"
+    },
+    "source/hojo-80m/zh1.wav": {
+      "size": 266106,
+      "sha256": "0cd477f239ad4a6c30a327e3f17fa1c7721eb0862234772fd52daf59ce468907"
+    },
+    "source/repo/LICENSE": {
+      "size": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "source/repo/NOTICE": {
+      "size": 1646,
+      "sha256": "7f44bb0b1d0a306b511d96953892d69bfa7860aa5acd4e2f16f65ba3ac5778bf"
+    },
+    "source/repo/src/__init__.py": {
+      "size": 77,
+      "sha256": "34bf74798aad555b71397ed77b05b088b99d958d23f95797f41e5e610f06b4f0"
+    },
+    "source/repo/src/bridge.py": {
+      "size": 63056,
+      "sha256": "dc7d42b2630778c15c95b7966fd8c072c089e5e62090cd6f2a409e4e675d1477"
+    },
+    "source/repo/src/config.py": {
+      "size": 3566,
+      "sha256": "f68d7bba240c21c9e621c8e4c1b2cde1da373638f76dbf9827cf21397c5b3409"
+    },
+    "source/repo/src/dm_router.py": {
+      "size": 50565,
+      "sha256": "c89a3f47f0f710af65c97869ebae8d7cdd671eb3bbca99f487e399eb0e6bea55"
+    },
+    "source/repo/src/engine.py": {
+      "size": 169871,
+      "sha256": "e06ed0fcd80dae2493fc74a601dbb935b1abfb3a84174e90243789a59a106bdf"
+    },
+    "source/repo/src/koubo.py": {
+      "size": 21412,
+      "sha256": "d2281da8187d4454218d000645ac9db0ce238c6824164dc74d37a482eec5342f"
+    },
+    "source/repo/src/llm.py": {
+      "size": 17679,
+      "sha256": "157641f3edc644a59d4050e8b764bcc4e207068a629d2a4cac615950d83bcf93"
+    },
+    "source/repo/src/local_avatar.py": {
+      "size": 27165,
+      "sha256": "735d893a63497da8daaa401de2c354e3050cf05a35cd79189bfb1c4de7b56711"
+    },
+    "source/repo/src/local_character.py": {
+      "size": 9891,
+      "sha256": "f2f8a524c167b98b1fca8ad8717a13c7e00269375e97f0f42c1d26293c9bf463"
+    },
+    "source/repo/src/local_character_editor.py": {
+      "size": 7062,
+      "sha256": "beb9b12ac8f69c32c2a0ad2f078e479a687e1d8b9cd091a5f25ba68868746395"
+    },
+    "source/repo/src/local_delivery.py": {
+      "size": 4047,
+      "sha256": "0572b5c3c0685a0cb2ec57946997e375272dea19f6d716c52b5f857fbd8e9c47"
+    },
+    "source/repo/src/local_obs.py": {
+      "size": 6193,
+      "sha256": "f0dc148c418ab81547f3e658e74d4f3139b7f48328b071a25d7e434a82a8fff5"
+    },
+    "source/repo/src/local_performance.py": {
+      "size": 17337,
+      "sha256": "f9f8ae087ceac2c1c68c9f2285f549e4e2eece74c7d4d6bd7e60f94c01e1288c"
+    },
+    "source/repo/src/local_studio.py": {
+      "size": 32148,
+      "sha256": "1cb39ab553d3bdd68de805eaf80331cb1fcc56be4cb589f5d75aca12aa74b29e"
+    },
+    "source/repo/src/local_studio_config.py": {
+      "size": 6583,
+      "sha256": "6f62297bb0d738ab54a764bbb86eb76eec2dfc9360f13a78b7c78a7169e11ab1"
+    },
+    "source/repo/src/logging_setup.py": {
+      "size": 5110,
+      "sha256": "b5c12b5e546954613ce6b62ad3029bae28556909821c02ea88a604b36bd8013b"
+    },
+    "source/repo/src/main.py": {
+      "size": 1617,
+      "sha256": "7e105382f104dd3c007fcd0407451203f387732c11727e50798f8b625d8707dd"
+    },
+    "source/repo/src/personas.py": {
+      "size": 4610,
+      "sha256": "9e027b9802a865b865912159a87a45a4a3839a499811a7b01a06404c7301b684"
+    },
+    "source/repo/src/rtc_tokens.py": {
+      "size": 6463,
+      "sha256": "ec0a7cb23a3ec57b2c9f2c5e12092452f3900674a43b105cd36fc325db9bf1f1"
+    },
+    "source/repo/src/tts/__init__.py": {
+      "size": 315,
+      "sha256": "e2375c52d8a7b2ecc70de4eac4e1cff4d0754c7731228a3adc37eb76868f60af"
+    },
+    "source/repo/src/tts/audio.py": {
+      "size": 3074,
+      "sha256": "5822c079ad683a509a2a07b0d23438ee0526d937e67dfc85a3c415d17e10bb13"
+    },
+    "source/repo/src/tts/hojo.py": {
+      "size": 5597,
+      "sha256": "1c329c38a708145c396be212bc106c89e85f1770f4b08e54fd7287bbaa3550fc"
+    },
+    "source/repo/src/tts/hojo_voices.py": {
+      "size": 1951,
+      "sha256": "9561454d9c7c7bab771ffee499ac18131e981ea5c41fffb9f1e4e1b827d17ba9"
+    },
+    "source/repo/src/tts/omnivoice.py": {
+      "size": 12506,
+      "sha256": "1bb76931fa9af2b6a256e3b61491018acdabf47cbc4463057e7869a1b80b7e6c"
+    },
+    "source/repo/src/vidu/__init__.py": {
+      "size": 68,
+      "sha256": "5897691483154f355e9b894a816aef1f24febe7a033ff22afce70c52a4cad085"
+    },
+    "source/repo/src/vidu/client.py": {
+      "size": 7685,
+      "sha256": "2fbf16dd7c45e432eefacf22d04c1e1620162fe96d88c5079cf262a45780008a"
+    },
+    "source/repo/src/vidu/signaling.py": {
+      "size": 9882,
+      "sha256": "1c82fa8f7583e3a8dfe82a5f7cf8cedde0be15c11803f214f82d7c36c874bc6a"
+    },
+    "source/repo/stage/live2d/character-rig.js": {
+      "size": 4791,
+      "sha256": "18c414aa9dffe438ab0a95dcc768eb622ebbaf958483d9ee77d7cff22385cd22"
+    },
+    "source/repo/stage/live2d/credits/AUTHORS.en.md": {
+      "size": 1549,
+      "sha256": "aa4dcec1743c09d2a1168d212786372c3863fb3e092f1e507497cf32710047f7"
+    },
+    "source/repo/stage/live2d/credits/AUTHORS.md": {
+      "size": 2857,
+      "sha256": "fc8310c3347cd409a3b9faf84339ff0fa80c8f452d4d461319d95f4771ea4de2"
+    },
+    "source/repo/stage/live2d/credits/LICENSE": {
+      "size": 1068,
+      "sha256": "baa96eade5b99a471f969684610aeb84f150712808032cb65b10d3a9fbcd18e8"
+    },
+    "source/repo/stage/live2d/credits/NOTICE.en.md": {
+      "size": 1194,
+      "sha256": "9434937e1f4e6941415d411a2e9f71b18fdc67b2a6c83abc6b5e01d467cc4e9a"
+    },
+    "source/repo/stage/live2d/credits/NOTICE.md": {
+      "size": 2712,
+      "sha256": "ee0be7a6c17d2e65dc5f5137c7c280116badbffdd86f9546abf6db624db9d311"
+    },
+    "source/repo/stage/live2d/credits/PROVENANCE.en.md": {
+      "size": 2260,
+      "sha256": "9616f29b65ac280778b690d67beaa86ea9f9aef98b79a24dd76b12c87f7061e3"
+    },
+    "source/repo/stage/live2d/credits/PROVENANCE.md": {
+      "size": 4300,
+      "sha256": "954ad75921efb4369f6a33fb628b10da66d19180515aaaabbc892a01bc25126f"
+    },
+    "source/repo/stage/live2d/credits/source.json": {
+      "size": 155,
+      "sha256": "472030669fcd37ef76802586c5c0fa9e0892bad4837a31892975482390105327"
+    },
+    "source/repo/stage/live2d/model/c_0120.2048/texture_00.png": {
+      "size": 1768051,
+      "sha256": "d74a8b7ed11f17f086afd22935d27d869b7d6fc19e94486b21445de19483fc0a"
+    },
+    "source/repo/stage/live2d/model/c_0120.2048/texture_01.png": {
+      "size": 90177,
+      "sha256": "39a6da7736cbae495494be1dde515874a2e4fe72c21f399c47da33924b3d43b9"
+    },
+    "source/repo/stage/live2d/model/c_0120.cdi3.json": {
+      "size": 28364,
+      "sha256": "a04133a70c8676a9e8e6e3773d1bd047333791b1d3b84896e73dc57eb489f1c5"
+    },
+    "source/repo/stage/live2d/model/c_0120.moc3": {
+      "size": 2119552,
+      "sha256": "37d62cc7ebe2fe93350c934a2c023aac44e306833f63d83a130c005e2945ce1c"
+    },
+    "source/repo/stage/live2d/model/c_0120.model3.json": {
+      "size": 2526,
+      "sha256": "bd651c1d5aaa00ec6993fb6c96af953cfb4f2f8c4e8439fa4429a08b538fad0a"
+    },
+    "source/repo/stage/live2d/model/c_0120.physics3.json": {
+      "size": 38775,
+      "sha256": "36b71d419c8692e8831641d16e7c16699792531309658b4d71a3f49fc6a00a9c"
+    },
+    "source/repo/stage/live2d/model/expressions/love.exp3.json": {
+      "size": 161,
+      "sha256": "caa9a2474cf99ea9419d846978e52fff1173c05b36adc555ca3879be06b53694"
+    },
+    "source/repo/stage/live2d/model/expressions/兔兔贴纸.exp3.json": {
+      "size": 169,
+      "sha256": "da65f75a8a64b99af29d81bba1d31806b10ccdeb87e746de1b7ead37eb3e2105"
+    },
+    "source/repo/stage/live2d/model/expressions/单边马尾.exp3.json": {
+      "size": 205,
+      "sha256": "bfcf09bb982092d16191887f7f165c14b467c84dff7eed75fea35c6e5fbe1603"
+    },
+    "source/repo/stage/live2d/model/expressions/双手比耶.exp3.json": {
+      "size": 163,
+      "sha256": "f85650e953d2f8acc9be501270ce7bc512f4d98dfca877b933c4cff009067070"
+    },
+    "source/repo/stage/live2d/model/expressions/吐舌.exp3.json": {
+      "size": 576,
+      "sha256": "2edce2e6973ece82a77e114f60d57d283d30527f9b68a7f082134c0a6bc2b1a0"
+    },
+    "source/repo/stage/live2d/model/expressions/吐魂.exp3.json": {
+      "size": 169,
+      "sha256": "3968bdbc5ef6701cfc13235fa877e0a4cd378f0f7a7e1e3c271abb19831b0e70"
+    },
+    "source/repo/stage/live2d/model/expressions/呆呆眼.exp3.json": {
+      "size": 169,
+      "sha256": "fda8633386aa2592baefdc00ff45ddffc84ea4a64e536cea78c4e47916b3f253"
+    },
+    "source/repo/stage/live2d/model/expressions/哭.exp3.json": {
+      "size": 1293,
+      "sha256": "edf4ff77c26e0cf5d8112bf0d5021738b44d829419314a1a2a97827713120013"
+    },
+    "source/repo/stage/live2d/model/expressions/喵喵手~喵~动画.exp3.json": {
+      "size": 380,
+      "sha256": "e0feb354e9fda5df1a4ea973ecbfc8c50569b780011bd442a599a0934dc1c30b"
+    },
+    "source/repo/stage/live2d/model/expressions/圆眼镜.exp3.json": {
+      "size": 169,
+      "sha256": "2efbb7759f14448a76eaf383469960fb76fe47b37014d18ac847eebda083e6f9"
+    },
+    "source/repo/stage/live2d/model/expressions/墨镜.exp3.json": {
+      "size": 389,
+      "sha256": "bb6d0e30aeaec829b32fcc41bd9960e6582d5f9029a3a2bda0908bcd72c07623"
+    },
+    "source/repo/stage/live2d/model/expressions/头箍.exp3.json": {
+      "size": 214,
+      "sha256": "cd51d9a1771de3b32f6174f691a691204ae16d7b26b93b45c94040e83889447a"
+    },
+    "source/repo/stage/live2d/model/expressions/巴菲.exp3.json": {
+      "size": 164,
+      "sha256": "c392fb0481aaa8262494e19c0c372b25800ee2aad653593e66e1db0ee132c51c"
+    },
+    "source/repo/stage/live2d/model/expressions/开心兴奋.exp3.json": {
+      "size": 1433,
+      "sha256": "25fb0e4d803187eeef9566512c6f96a99e386a5ce1ac1b0ee6bf6773b178d269"
+    },
+    "source/repo/stage/live2d/model/expressions/心跳.exp3.json": {
+      "size": 169,
+      "sha256": "21e51341dd14899f67585774b91f59e1928930f29c2f6a95892dd655fced9512"
+    },
+    "source/repo/stage/live2d/model/expressions/悲伤.exp3.json": {
+      "size": 754,
+      "sha256": "c4214cb079d1e6b392e1f48327b51e902a64bef3eb6d807b80ad4e8bef4d641e"
+    },
+    "source/repo/stage/live2d/model/expressions/情绪花花.exp3.json": {
+      "size": 171,
+      "sha256": "ffda77f41d5a0c9df8c53d10ba459022893d2fb237dacb7f5eb41e07cd3e9ed3"
+    },
+    "source/repo/stage/live2d/model/expressions/感叹号.exp3.json": {
+      "size": 169,
+      "sha256": "0bcfa612595200dcd8ab7894ea31b656adbb48bc54527e34e21703eac3548504"
+    },
+    "source/repo/stage/live2d/model/expressions/手机换色.exp3.json": {
+      "size": 163,
+      "sha256": "ffe6d4381d62a6350f0df0227e27be7d8bbd1abcf57da2362db24ee548f20454"
+    },
+    "source/repo/stage/live2d/model/expressions/挤.exp3.json": {
+      "size": 159,
+      "sha256": "25aec63e078ddea99be7fe0b4b73df464170a3a5a61e71dd719f2e9ed02adbe1"
+    },
+    "source/repo/stage/live2d/model/expressions/撤回.exp3.json": {
+      "size": 163,
+      "sha256": "2ac796fc510041d7a05867758e7c1a6107500f6f5b6cfd4cd13ea1b04f392ad0"
+    },
+    "source/repo/stage/live2d/model/expressions/方眼镜.exp3.json": {
+      "size": 169,
+      "sha256": "111fdc92c2bf916dd982ee2d16d9b005f1acfbf063aa39e28c5ba365701ad493"
+    },
+    "source/repo/stage/live2d/model/expressions/星星眼.exp3.json": {
+      "size": 169,
+      "sha256": "d4767e003c156c6d7549354dc8caf3ed29925e516b360ab7b9d07da5381ec7f4"
+    },
+    "source/repo/stage/live2d/model/expressions/晕晕.exp3.json": {
+      "size": 823,
+      "sha256": "bc0b82f39cb90864e9cdcb8ac33391fe679c097bb049adad42766877da9c1045"
+    },
+    "source/repo/stage/live2d/model/expressions/椭圆眼镜.exp3.json": {
+      "size": 169,
+      "sha256": "ffe2b516b9d844d40655ae102dff22829e99af4347cb7e48a1b242f9cb18143d"
+    },
+    "source/repo/stage/live2d/model/expressions/橡皮.exp3.json": {
+      "size": 159,
+      "sha256": "a044bf8cb109c866888fe83fa351a9100ab7d85d9eccf3378a7db654197c5e0e"
+    },
+    "source/repo/stage/live2d/model/expressions/流汗.exp3.json": {
+      "size": 169,
+      "sha256": "517e5a0b1cd887c869eda083020526c4c240ff6913f49f9021eeac05655f4961"
+    },
+    "source/repo/stage/live2d/model/expressions/深色桌布.exp3.json": {
+      "size": 205,
+      "sha256": "1255f9837c220d70036c189d272daff5dfb164a40e0241188ba7ca356c1acffb"
+    },
+    "source/repo/stage/live2d/model/expressions/点菜按下.exp3.json": {
+      "size": 163,
+      "sha256": "c4c97a0f12d2d41e186586c1655933d06fdfb7e9b77ea154abd9ac472365eab0"
+    },
+    "source/repo/stage/live2d/model/expressions/爱心眼.exp3.json": {
+      "size": 1319,
+      "sha256": "5be7abfa7be644592c4dd6c5a8ebaea0462f9ceb96177764d871a47273bea7af"
+    },
+    "source/repo/stage/live2d/model/expressions/猫猫贴纸.exp3.json": {
+      "size": 169,
+      "sha256": "0f51de511dff88afb09c7b2e80ad262dedc44014578ce9f4a9a4118f6ec08cc1"
+    },
+    "source/repo/stage/live2d/model/expressions/生气.exp3.json": {
+      "size": 1200,
+      "sha256": "ec41aada5b001e9de5cb41cbfd108c7dbed3962fc287e90d6a6ce219d49388ec"
+    },
+    "source/repo/stage/live2d/model/expressions/画笔.exp3.json": {
+      "size": 159,
+      "sha256": "24b77f1d343332ec1958d2c33fe0c1e04829e7bc5b1ff925c99d6fbc3155ea14"
+    },
+    "source/repo/stage/live2d/model/expressions/脸红.exp3.json": {
+      "size": 165,
+      "sha256": "f9c4b846582dfaa5b2ea6f9b502379bbc2594f8d5de0ddf377ef37ecf2fae429"
+    },
+    "source/repo/stage/live2d/model/expressions/蛋包饭.exp3.json": {
+      "size": 313,
+      "sha256": "342385b553d35e172f535167b505be28afa868a1ea41f263d5058341fd55a75e"
+    },
+    "source/repo/stage/live2d/model/expressions/蝴蝶结贴纸.exp3.json": {
+      "size": 169,
+      "sha256": "0d6f795fe4ef71af10796cb037515a06fd1df7730415df29fbc9b6156ff1fc6f"
+    },
+    "source/repo/stage/live2d/model/expressions/调皮.exp3.json": {
+      "size": 389,
+      "sha256": "390e63e1f7ecdbb04d8a10611f06bc14829b98b34fefe35ed543fc69fb35b737"
+    },
+    "source/repo/stage/live2d/model/expressions/闭眼口水.exp3.json": {
+      "size": 169,
+      "sha256": "1f493067c7951029c7f2abd77c8888831837d4c55828966e8f386f76804799da"
+    },
+    "source/repo/stage/live2d/model/expressions/问号.exp3.json": {
+      "size": 169,
+      "sha256": "eb50ace022b7544ae09bfef7a0eb7ccc9f58371ddc665ea4319d7b0a438a9c56"
+    },
+    "source/repo/stage/live2d/model/expressions/阴暗.exp3.json": {
+      "size": 165,
+      "sha256": "8f71ff1b91c03ec2b7dc3773494d94f30c599ee62767fb4e53c98a49cae617cb"
+    },
+    "source/repo/stage/live2d/model/expressions/魔爪.exp3.json": {
+      "size": 163,
+      "sha256": "39eed17880a986d38f6ba13f44f721705ccf8ad914aa45a0000a832a19974633"
+    },
+    "source/repo/stage/live2d/model/expressions/魔爪换色.exp3.json": {
+      "size": 164,
+      "sha256": "056acaef502cc6e20f6dccbc869ce481eac2f7f50337b8d252120d380aa5dbc2"
+    },
+    "source/repo/stage/live2d/model/expressions/鲸鱼.exp3.json": {
+      "size": 208,
+      "sha256": "3627cf66669ebd75ded276188593f5e645cb4e49216f5f4aaeb5912effa29202"
+    },
+    "source/repo/stage/live2d/model/expressions/鲸鱼放桌上.exp3.json": {
+      "size": 215,
+      "sha256": "4c41dd719d607e564dcc0e0fff7416f597fa5ef9fdd13b3543907b140164e2b8"
+    },
+    "source/repo/stage/live2d/model/icon.png": {
+      "size": 90633,
+      "sha256": "764fb55b5661eaa06733f47f53fb842b00a349edaac7513c4ad4761248f927cb"
+    },
+    "source/repo/stage/live2d/model/manifest.json": {
+      "size": 20593,
+      "sha256": "05d4f0498a676091c374a46e0f01c5e221750deb0c6d1feae5f69cc0e5c216d8"
+    },
+    "source/repo/stage/live2d/model/motions/_aidale.motion3.json": {
+      "size": 10871,
+      "sha256": "73800fe5d76a6378aec56e249bb5ef57a538e763da1566ae5ababe3e6e8db998"
+    },
+    "source/repo/stage/live2d/model/motions/chuipaopao.motion3.json": {
+      "size": 3470,
+      "sha256": "c9672aab4e398f7ca096b47511a6b9ad5af65fd3fb62d7388cc6ae5bd67fb820"
+    },
+    "source/repo/stage/live2d/model/motions/idle.motion3.json": {
+      "size": 45228,
+      "sha256": "00364b3e9f4502b04a2794b5d2bd455cc50ac0d6876dc3886d04194e37033a38"
+    },
+    "source/repo/stage/live2d/model/motions/喷水.motion3.json": {
+      "size": 404,
+      "sha256": "98e36262742639074b73faeffcd4da95c5eca4901fd483f93c7a448b1a1f0ee6"
+    },
+    "source/repo/stage/live2d/model/motions/开盖.motion3.json": {
+      "size": 1181,
+      "sha256": "ef5b088705eb20d7f5a55c3ebed52bd2d7ed64e9faf8cf502e7d4f8e20c57512"
+    },
+    "source/repo/stage/live2d/model/motions/番茄酱.motion3.json": {
+      "size": 7282,
+      "sha256": "a63332b5a9ad5ad9a9980d9ed32c6c09cabb9cf87a35bc2b3dfceaf3419e342d"
+    },
+    "source/repo/stage/live2d/model/motions/自拍.motion3.json": {
+      "size": 6580,
+      "sha256": "5848a992e0ebc4f3447166eb7e38ac678f32d17198b16c0d56048f13b8c2e110"
+    },
+    "source/repo/stage/live2d/model/motions/自拍简单.motion3.json": {
+      "size": 550,
+      "sha256": "9a93e9ac0aa77c45c2c9dbf33558bc265d3a58c9a73033446483861ec768fcd6"
+    },
+    "source/repo/stage/live2d/studio-player.js": {
+      "size": 3811,
+      "sha256": "5029ee11b78a241023b263930b5b39ac1b3117347959cb91ba97452a84209f71"
+    },
+    "source/repo/stage/live2d/studio-settings.js": {
+      "size": 18429,
+      "sha256": "6d654a4f149c1dfed0533a1a9963947301e2768ff6264a87b56fcb9c2cd7cca5"
+    },
+    "source/repo/stage/live2d/subtitle-track.js": {
+      "size": 1859,
+      "sha256": "d25af10b8e88d46bec8bc6f82907c75d4297d8c9aeb3d8a780621111c9cb0126"
+    },
+    "source/repo/stage/live2d/vendor/cubism4.min.js": {
+      "size": 119922,
+      "sha256": "af1267e6d52759b245766c578d905bfa025b532d5c3cc727c370957c4409e21b"
+    },
+    "source/repo/stage/live2d/vendor/live2dcubismcore.min.js": {
+      "size": 207155,
+      "sha256": "25ae938cb4fe282ce189b357bcc97e603d1e1f7ec78bf04150d401c23cdc792f"
+    },
+    "source/repo/stage/live2d/vendor/pixi.min.js": {
+      "size": 460333,
+      "sha256": "403f2f2ee8145fa17f60c5c89403056efe2680e5096ec2762036486914ed19c5"
+    },
+    "source/repo/stage/live2d/whale-player.js": {
+      "size": 23837,
+      "sha256": "58e836a87e72f954052bf0c279d12156c681b41d085e01caf843f31fcb945458"
+    },
+    "source/repo/stage/local_live2d.html": {
+      "size": 11309,
+      "sha256": "c8b6d423ab5239141e2d638ee3bd0b8b791d0e845fa95209436206613dc0434d"
+    },
+    "source/repo/stage/local_settings.html": {
+      "size": 19318,
+      "sha256": "58b78b72e8b8ef51de028ae32d465ecc95b59d7677001cf6f6c78b43cf08e5bb"
+    },
+    "assets/NOTICE.md": {
+      "size": 866,
+      "sha256": "fef670a2c8fbad950680fcc253470e99d6810d4d18df3f83ea983ed3314cacf0"
+    },
+    "assets/whale-portrait.png": {
+      "size": 104880,
+      "sha256": "5e4e7f339e6be73543a9ea38a10b33542b8f6944d513c189ba5754eb750229d4"
+    },
+    "assets/whale.ico": {
+      "size": 361102,
+      "sha256": "915fcbee4e9bebd87a1f7610a62c1c8429d6d56f7927df5255760eb9f09da4b8"
+    },
+    "assets/whale.png": {
+      "size": 104880,
+      "sha256": "5e4e7f339e6be73543a9ea38a10b33542b8f6944d513c189ba5754eb750229d4"
+    }
+  }
+}

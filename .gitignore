@@ -1,0 +1,25 @@
+# Generated output / 构建产物
+release/
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+# Local data and credentials / 本机数据与凭据
+.env
+.env.*
+config.json
+collector.json
+state/
+logs/
+cache/
+voices/
+*.log
+*.dpapi
+*.key
+*.onnx
+*.npz
+*.exe
+*.dll
+*.zip

@@ -1,0 +1,39 @@
+{
+  "engine": "hojo-80m",
+  "model_revision": "d9c02af95496b6363b44944326d71491ab8905b0",
+  "source_revision": "7b2c674b0b02a979670a9496c9ed471ff99c05cf",
+  "files": {
+    "Hojo-TTS-Light-decoder.onnx": {
+      "size": 151719689,
+      "sha256": "bae05e186dc4e1b37ba354efb4cc0a160ae48661f574cf558c77dc3e09d30d81"
+    },
+    "Hojo-TTS-Light-encoder.onnx": {
+      "size": 82140638,
+      "sha256": "c897b928dee1ebd95309a114a73765a867aa916d98fe2151811e0f0cdde95dab"
+    },
+    "Hojo-TTS-Light-llm.onnx": {
+      "size": 161483978,
+      "sha256": "f232094e38bc64f0f6ab1d839e222314fb6b54c2a6f6fa6fb789909f590be326"
+    },
+    "Hojo-TTS-Light-speaker.onnx": {
+      "size": 24160472,
+      "sha256": "2297f00fe783e6f985cf4cfab333f313e53929c36f7348d5617c11c8acc3f963"
+    },
+    "Hojo-TTS-Light-voice.npz": {
+      "size": 36182300,
+      "sha256": "82be65c9687f03704cb2941c8066727165c0800a18e1d2b816afc60df20b45a8"
+    },
+    "config.json": {
+      "size": 1222,
+      "sha256": "f0ec939c99a1d053c483a806db9ff9f776cec87ddb279c9ae94822004861c505"
+    },
+    "tokenizer.json": {
+      "size": 2071007,
+      "sha256": "395daae9cd5a4e166f1892d22e01c28a22421cfc92bc97aeb5d2b0fc6eaac499"
+    },
+    "tokenizer_config.json": {
+      "size": 455,
+      "sha256": "e2df8b54623ab7f105c0ddfa4fd84e0e50353b2265550d9eb6ed4cd521d41d13"
+    }
+  }
+}

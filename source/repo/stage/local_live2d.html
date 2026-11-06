@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本地数字伙伴</title>
+<script>if(location.pathname==='/local/broadcast')document.documentElement.classList.add('broadcast');</script>
+<style>
+:root{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;color:#253351;background:#f3f5fc}*{box-sizing:border-box}body{margin:0}header{max-width:1280px;margin:auto;padding:25px 30px 18px;display:flex;justify-content:space-between;align-items:center}h1{font-size:24px;margin:0;letter-spacing:.03em}header p{color:#7886a1;font-size:13px;margin:6px 0 0}.local{font-size:12px;color:#43806b;padding:8px 13px;background:#e2f2ea;border-radius:30px}main{max-width:1280px;margin:auto;padding:0 28px 20px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(340px,1fr);gap:24px}.stage{position:relative;height:650px;align-self:start;border:1px solid #dce3f4;border-radius:24px;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#fff 0,#eef3ff 48%,#e0eafb 100%)}.stage:before,.stage:after{content:"";position:absolute;pointer-events:none;border:1px solid #fff8;border-radius:50%;width:450px;height:450px;left:calc(50% - 225px);top:65px}.stage:after{width:530px;height:530px;left:calc(50% - 265px);top:25px}#canvas-wrap{position:absolute;inset:30px 0 26px;z-index:1}canvas{display:block}.badge{position:absolute;top:18px;left:20px;z-index:2;border-radius:30px;background:#ffffffb8;padding:7px 11px;font-size:12px;color:#65799f}.stage-bottom{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#7588a7;font-size:12px;z-index:2}#loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#7086b0;z-index:3;pointer-events:none}.panel{background:#ffffffd9;border:1px solid #e0e5f1;border-radius:24px;padding:22px;display:flex;flex-direction:column;gap:14px}.controls{display:flex;gap:8px;flex-wrap:wrap}button,select,textarea{font:inherit;color:inherit;border:1px solid #dbe2ef;border-radius:11px;background:#f8faff}button{padding:10px 13px;cursor:pointer;font-size:14px}button.primary{background:#526edb;border-color:#526edb;color:white}button:hover:enabled{filter:brightness(.97);border-color:#8c9ee4}button:disabled{opacity:.45;cursor:default}#actions button{font-size:12px;padding:7px 10px;background:white}#status{font-size:13px;color:#667997;min-height:20px}#action-status{font-size:12px;color:#8b97ac}#messages{flex:1;min-height:200px;max-height:280px;overflow:auto;border:1px solid #e6eaf4;border-radius:14px;padding:15px;background:#f9faff}.message{white-space:pre-wrap;margin:0 0 12px;line-height:1.65;font-size:14px}.message b{color:#6b80bb;display:block;font-size:12px}.message p{margin:3px 0}.hint{font-size:12px;color:#8a96ad;line-height:1.7;margin:0}textarea{padding:12px;resize:vertical;width:100%;min-height:83px;background:white}select{padding:8px;font-size:13px}.volume{display:flex;align-items:center;gap:9px;color:#7b89a3;font-size:12px}.volume input{width:110px;accent-color:#6c85db}footer{max-width:1280px;margin:auto;padding:0 30px 22px;font-size:11px;color:#8b96aa;line-height:1.8}a{color:#6c82b6}details{margin-top:4px}summary{cursor:pointer}#retry{display:none}@media(max-width:800px){header{padding:20px}main{grid-template-columns:1fr;padding:0 12px 16px;gap:14px}.stage{height:470px}.panel{padding:17px}#messages{min-height:170px;max-height:230px}.local{font-size:11px}h1{font-size:21px}}
+.character-fields{display:grid;gap:12px;margin-top:14px}.character-fields label{display:grid;gap:6px;font-size:13px;color:#65789a}.character-fields label:has([type=checkbox]){display:flex;align-items:center}.character-fields input:not([type=checkbox]):not([type=range]){padding:8px;border:1px solid #dbe2ef;border-radius:8px;font:inherit}.character-fields textarea{font-size:13px;min-height:72px}.stage-bottom{padding:0 24px;line-height:1.5}#character-settings summary{font-size:13px;color:#65789a}
+.studio-link{display:inline-block;text-decoration:none;padding:9px 13px;border:1px solid #dbe2ef;border-radius:12px;font-size:13px;background:white}.header-actions{display:flex;gap:12px;align-items:center}
+#broadcast-error{position:fixed;top:12px;left:5%;right:5%;z-index:30;padding:14px;background:#fff0ee;color:#973f35;border-radius:12px;font:14px/1.6 system-ui}#broadcast-error[hidden]{display:none}
+#broadcast-audio{display:none;position:fixed;bottom:22px;left:50%;transform:translateX(-50%);z-index:20;background:white;color:#253351;padding:12px 20px;border-radius:20px}
+.broadcast,.broadcast body{background:transparent!important;overflow:hidden;width:100%;height:100%;margin:0}
+.broadcast header,.broadcast .panel,.broadcast footer,.broadcast .badge,.broadcast .stage:before,.broadcast .stage:after{display:none!important}
+.broadcast main{display:block;width:100vw;height:100vh;margin:0;padding:0;max-width:none}
+.broadcast .stage{width:100%;height:100%;border:none;border-radius:0;background:transparent}
+.broadcast #canvas-wrap{inset:0 0 8%}.broadcast .stage-bottom{bottom:4%;font-size:clamp(16px,2.7vw,42px);color:#20334e;text-shadow:0 1px 3px white;font-weight:500;max-width:92%;margin:auto;border-radius:12px;left:4%;right:4%}
+.stage-bottom{min-width:0;max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word}
+.broadcast .stage-bottom{width:92%;max-width:92%;padding:0 clamp(8px,2vw,24px);box-sizing:border-box;text-wrap:initial}
+.broadcast[data-background=blue] .stage{background:radial-gradient(ellipse at 50% 35%,#fff,#e7efff 60%,#cddcf6)}
+.broadcast[data-background=green] .stage{background:#00ff00}
+.broadcast[data-subtitles=false] .stage-bottom{display:none}
+</style>
+<header><div><h1 id="character-title">本地数字伙伴</h1><p id="avatar-subtitle">本地语音伙伴</p></div><div class="header-actions"><a class="studio-link" href="/local/settings">角色与直播设置</a><span class="local">● 本地画面与配音</span></div></header>
+<main>
+<section class="stage" aria-label="鲸鱼娘动画"><div class="badge">DeepSeek 社区二创形象</div><div id="canvas-wrap"></div><div id="loading">正在唤醒你的伙伴…</div><div class="stage-bottom" id="speech-caption">眨眼、看向你，也会认真听你说话</div></section>
+<section class="panel">
+<div class="controls"><button id="connect" class="primary" disabled>开始聊天</button><button id="disconnect" disabled>断开</button><button id="interrupt" disabled>打断</button><button id="retry">重新加载形象</button></div>
+<div id="status" role="status">正在加载形象…</div>
+<div><button id="takeover" type="button" hidden>释放旧连接并在此聊天</button></div>
+<div id="actions" class="controls"></div><div id="action-status" role="status">放松等待</div>
+<div id="messages" role="log" aria-live="polite"><p class="hint">和伙伴聊聊今天发生的事，也可以说“先笑一下，再点点头”。</p></div>
+<form id="form"><textarea id="text" maxlength="1000" placeholder="例如：我今天考试通过啦！" aria-label="提问或朗读文字"></textarea><div class="controls" style="margin-top:10px"><select id="mode" aria-label="模式"><option value="chat">实时问答</option><option value="say">朗读原文</option><option value="act">只做动作</option></select><button id="send" class="primary" disabled>发送</button></div></form>
+<label class="volume">音量 <input id="volume" type="range" min="0" max="1" step="0.05" value="0.8" aria-label="音量"></label>
+<p class="hint">表情和小动作随每段话自然变化。开始聊天会自动释放已暂停、空闲的直播画面；连接占用时可在此切换。当前音色：<span id="character-voice-label">加载中</span>。</p>
+<details id="character-settings"><summary>角色设置与记忆</summary>
+<div class="character-fields">
+<label>名字 <input id="character-name" maxlength="24"></label>
+<label>角色性格 <textarea id="character-personality" maxlength="1600"></textarea></label>
+<label>说话习惯 <textarea id="character-style" maxlength="600"></textarea></label>
+<label>固定声线模板 <select id="character-voice"></select></label>
+<label>表情幅度 <input id="character-strength" type="range" min="0.2" max="1" step="0.05"></label>
+<label><input id="character-gestures" type="checkbox"> 说话时自然地配合小动作</label>
+<label><input id="character-remember" type="checkbox"> 断开后仍记住最近的对话</label>
+<label>记忆长度 <select id="character-turns"><option value="1">1 轮</option><option value="2">2 轮</option><option value="3">3 轮</option><option value="4">4 轮</option><option value="5">5 轮</option><option value="6">6 轮</option><option value="7">7 轮</option><option value="8">8 轮</option><option value="9">9 轮</option><option value="10">10 轮</option><option value="11">11 轮</option><option value="12">12 轮</option><option value="13">13 轮</option><option value="14">14 轮</option><option value="15">15 轮</option><option value="16">16 轮</option><option value="17">17 轮</option><option value="18">18 轮</option><option value="19">19 轮</option><option value="20">20 轮</option></select></label>
+<div class="controls"><button id="character-save" type="button">保存设置</button><button id="memory-clear" type="button">清除对话记忆</button></div>
+<p class="hint">可以直接说：“以后你叫澜澜，性格活泼一点，声线用Hojo中文女声1。”设置会保存；“叫我小林”只记录你的称呼。</p>
+<div class="controls"><button id="character-export" type="button">导出角色模板</button><button id="character-import" type="button">导入角色模板</button><input id="character-file" type="file" accept="application/json,.json" hidden></div>
+<p class="hint">角色模板包含人设与声线绑定，不含聊天记录。导入会更新当前角色设置并保留对话；另一台机器需要安装匹配的声线素材。记忆仅保存在本地；清除后无法恢复。</p><p class="hint" id="character-status" role="status"></p>
+</div></details>
+</section></main>
+<footer><div id="whale-credits" hidden>角色：上善无形 · 原画：ZipZipPipe · Live2D：氵六青 · 社区适配：Andersen216。
+<details><summary>形象来源与本地运行说明</summary><a href="https://github.com/Andersen216/dsh-whale-girl-live2d" target="_blank" rel="noopener">鲸鱼娘模型与来源</a> · <a href="/local-assets/credits/NOTICE.md" target="_blank">素材许可与署名</a>。美术素材 CC BY-NC-SA 4.0，仅用于当前非商业本地演示；Live2D Cubism Core © Live2D Inc.。回答由已配置的大模型生成，语音使用本机 CPU配音，动画在浏览器中运行。该形象并非 DeepSeek 官方产品。</details></div></footer>
+<div id="broadcast-error" role="alert" hidden></div>
+<button id="broadcast-audio" type="button">点击启用直播画面声音</button>
+<script src="/local-assets/vendor/live2dcubismcore.min.js"></script><script src="/local-assets/vendor/pixi.min.js"></script><script src="/local-assets/vendor/cubism4.min.js"></script><script src="/local-assets/character-rig.js"></script><script src="/local-assets/subtitle-track.js"></script><script src="/local-assets/whale-player.js"></script>
+<script src="/local-assets/studio-player.js"></script>
+</html>

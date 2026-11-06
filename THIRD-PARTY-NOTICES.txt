@@ -1,0 +1,37 @@
+AI-Cartoon-Live / 第三方说明 / Third-party notices
+
+中文
+感谢所有被引用项目的作者、维护者和贡献者。没有他们，就没有这个项目最终落地。
+完整致谢与链接：docs/THANKS.zh-CN.md；依赖清单：docs/DEPENDENCIES.zh-CN.md。
+安装后同样可在 resources/app/build-source/docs 查阅。
+
+Cyber-xiaoya-live：天工开帧 / AI少女宇宙计划组，AGPL-3.0。
+https://github.com/cyber-xiaoya/cyber-xiaoya-live
+Hojo-TTS-Light：HojoAI，Apache-2.0。
+https://github.com/HojoAI/Hojo-TTS-Light
+鲸鱼娘 Web 适配：Andersen216，MIT。
+https://github.com/Andersen216/dsh-whale-girl-live2d
+鲸鱼娘美术素材：上善无形 / ZipZipPipe / 氵六青，CC BY-NC-SA 4.0，非商业。
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+douyinLive：jwwsjlm，MIT。
+https://github.com/jwwsjlm/douyinLive
+Live2D Cubism Core：Live2D Inc.，独立专有 SDK 许可。
+https://www.live2d.com/eula/live2d-proprietary-software-license-agreement_en.html
+Electron/Chromium、Python、ONNX Runtime、WeText、kaldifst、FFmpeg 等的原始许可随二进制保留。
+Microsoft Visual C++ Redistributable 使用 Microsoft 的可再分发条款。
+感谢 CodeX 提供快速开发支持：https://openai.com/codex/
+
+English
+Thank you to the authors, maintainers and contributors of every referenced project. Without their work, this project would not have been possible.
+Full credits: docs/THANKS.en.md. Dependency inventory: docs/DEPENDENCIES.en.md.
+Installed copies are also under resources/app/build-source/docs.
+
+Cyber-xiaoya-live by 天工开帧 / AI少女宇宙计划组: AGPL-3.0.
+Hojo-TTS-Light by HojoAI: Apache-2.0.
+Whale-girl web adaptation by Andersen216: MIT.
+Whale-girl artwork by 上善无形 / ZipZipPipe / 氵六青: CC BY-NC-SA 4.0, non-commercial.
+The project and license URLs are listed above. Live2D Cubism Core is proprietary redistributable SDK code from Live2D Inc.
+Original notices for Electron/Chromium, Python, ONNX Runtime, WeText, kaldifst, FFmpeg and other binary dependencies are retained. Microsoft Visual C++ Redistributable is used under Microsoft's redistribution terms.
+Thanks to CodeX for rapid-development support: https://openai.com/codex/
+
+DeepSeek is the only required cloud AI service for dialogue. Users purchase their own API credit and enter their own key. Rendering and speech run locally.
